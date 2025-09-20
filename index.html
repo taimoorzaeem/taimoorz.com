@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taimoor Z</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            max-width: 1000px;
+            padding: 40px;
+        }
+        
+        .image-section {
+            flex-shrink: 0;
+        }
+        
+        .portrait {
+            width: 450px;
+            height: 600px;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
+        
+        .text-section {
+            flex: 1;
+        }
+        
+        .big-text {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.1;
+            color: #1a1a1a;
+        }
+        
+        .line1 {
+            margin-bottom: 10px;
+        }
+        
+        .line2 {
+            margin-bottom: 10px;
+            color: #0066cc;
+        }
+        
+        .line3 {
+            color: #666;
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                gap: 40px;
+                text-align: center;
+            }
+            
+            .portrait {
+                width: 250px;
+                height: 320px;
+            }
+            
+            .big-text {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="static/david-bowie-smoking.jpg" alt="David Bowie Smoking" class="portrait">
+        </div>
+        
+        <div class="text-section">
+            <div class="big-text">
+                <div class="line1">Now, we</div>
+                <div class="line2">Rock it.🎸</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,2 +1,3 @@
 # taimoorz.com
-Just a bought a fresh hostname lol
+
+Silly little website, sharing silly little stuff with the world.
